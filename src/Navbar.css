@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 1;
+  height: 60px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.navbar_image {
+  width: 120px;
+  object-fit: contain;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.navbar_avatar {
+  width: 40px;
+  object-fit: contain;
+  position: fixed;
+  top: 8px;
+  right: 10px;
+}
+.navbar_applyeffect {
+  background-color: rgba(0, 0, 0, 0.8);
+}
